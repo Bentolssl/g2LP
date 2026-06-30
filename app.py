@@ -16,7 +16,7 @@ Utilize os filtros ao lado para explorar diferentes regiões, estados e municíp
 # Carregar dados (cache para performance)
 @st.cache_data
 def load_data():
-    df = pd.read_csv('dados/simulacao_dengue_brasil.csv', parse_dates=['data'])
+    df = pd.read_csv('simulacao_dengue_brasil.csv', parse_dates=['data'])
     # Criar coluna auxiliar
     df['ano'] = df['data'].dt.year
     df['mes'] = df['data'].dt.month
