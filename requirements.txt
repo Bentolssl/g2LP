@@ -5,3 +5,4 @@ wheel
 plotly
 pearsonr
 scipy
+statsmodels
