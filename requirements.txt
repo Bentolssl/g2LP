@@ -3,3 +3,4 @@ pandas
 setuptools
 wheel
 plotly
+pearsonr
